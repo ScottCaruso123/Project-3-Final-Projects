@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Bootstrap Template With Sticky Menu</title>
+    <meta name="description" content="Simplified Bootstrap template with sticky menu">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/sticky-menu.css" rel="stylesheet">
+    <link href="static/css/styles.css" rel="stylesheet">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand page-scroll" href="#page-top"><img id="logo" src="static/img/logo7.png"></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Project</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#whatwedo">Data & Model</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#predict">Prediction</a>
+                    </li>
+                </ul>
+            </div>	<!-- .navbar-collapse -->
+        </div>		<!-- .container -->
+    </nav>
+   
+   
+    <!-- Home-Logo-Button-Section-->
+    <section id="welcome" class="welcome-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" >
+                    <br>
+                        <h1>Energy Prediction</h1>
+                        <p>Using Machine Learning to Predict Hourly Energy Consumption</p>
+                        <br>                        
+                        <div class="container">
+                                <div class="jumbotron" style="background-image: url(static/img/dataset-cover.jpg);">
+                                    <h1 style="color:transparent"><b>Energy Prediction</b></h1>      
+                                    <p style="color:transparent "><i>Using Machine Learning to Predict Energy Hourly</i>
+                                </div>
+                        </div>
+                        <p>&nbsp;</p>
+                    <h2>Know what you use!</h2>
+                    <p>Both energy companies and consumers benefit from conserving energy. Whether the motivations for energy conservation are economic, environmental, or personal, the energy company or consumer must first understand patterns of energy usage to take the best conservation approach. E-Predict uses historical data and forecasts energy consumption from the current date and time for any specified number of hours into the future. The ability to predict energy consumption based on historical hourly data allows users to strategically focus conservation efforts on the most impactful opportunities and prioritize key business objectives.</p>
+					<p>&nbsp;</p>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About-the-project-Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <br>
+                    <h1><u>About the Project</u></h1>
+                    <br>
+                    <h3>Machine Learning for Predicting Industrial Hourly Energy Consumption</h3>
+                    <br>
+                    <p>Our mission for this project was to create an easy to use tool to predict upcoming hourly energy consumption. Our analysis will help the energy provider company better understand their historical trends, and for the energy consumer, this app will be incredibly helpful in understanding energy consumption trends and when peak pricing will kick in.</p>
+                    <h3>Platform Specifications for this Project</h3>
+
+                            <ul>Sci-Kit Learn library</ul>
+                            <ul>Python Pandas</ul>    
+                            <ul>Python Matplotlib</ul> 
+                            <ul>Python Flask</ul>
+                            <ul>HTML/CSS/Bootstrap</ul>
+                            <ul>JavaScript Plotly</ul>
+                            <ul>Javascript D3.js</ul>
+                            <ul>MongoDB Database</ul>
+                            <ul>Heroku</ul> 
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data-and-Model-Section -->
+    <section id="whatwedo" class="whatwedo-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <br>
+                    <h1><u>The Data & Model</u></h1>
+                    <br>
+                    <h1>The Data</h1>
+                    <p>We used 14 years of electric energy data and piloted our model with one of the nation’s largest electricity producers, American Electric Power.
+                       American Electric Power (AEP) is a major investor-owned electric utility in the United States of America, delivering electricity to more than five million customers in 11 states.
+                    </p>
+                    <img src="static/img/trend_charts.png" alt="Data tren charts" style="width:800px;height:250px;">
+                    <br>
+                    <pr>In these four charts we explore the long and short term trends in our data. We observe a spike in 2007 and fairly steady decline after this. The week of the year chart displays how seasonality affects our data. It appears that there is local minimum in the spring and fall. Our day of the week chart visualizes the difference in energy demands from weekdays and weekends, where the weekends are statistically significant lower than the weekday. Finally, we can observe a noticeable trend in the hours of the day where the hours of 1 AM to 6 AM have the lowest energy consumption. From 6 AM there is steady growth until Noon, where growth slows down and holds steady until 1 AM.</pr>
+                    <br>
+                    <h1>The Model</h1>
+                    <p>E-Predict is based on the XGBoost model. XGBoost stands for extreme gradient boosting, a regression technique utilizing decision trees. The XGBoost model is designed for speed and model performance. XGBoost models “dominate on classification and regression predictive modeling problems”. This model uses day of year and hour for energy prediction demands. The model was piloted with 14 years of energy demand data from one of the nation's largest electricity generators, American Electric Power (AEP).</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!--Prediction-Section -->
+    <section id="predict" class="contact-section">
+            <div class="container">
+
+            <!-- Plot sub section -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <br>
+                    <h1><u>Predicting Hourly Energy</u></h1>
+                    <br>
+                    <h4>Please enter the number of hours you'd like to predict energy consumption for from now!</h4>
+                    <!-- Main Input For Receiving Query to our ML -->	
+                    <form action="{{ url_for('predict')}}" method="POST">
+                        <input type="text" name="number_of_hours">
+                        <button type="submit" class="btn btn-primary">Predict</button>
+                    </form>
+                    <br>    
+                    <!-- Adding our plot -->
+                    <div id="bar"></div>
+                </div>
+            </div>
+
+             <!-- Table sub section -->
+            <div class="row">
+                <div class="col-md-12" style="text-align:center;">
+                    <div id="table-area" class="" style="display:inline-block; width:400px;">
+                      <table id="data-table" class="table table-striped" style="table-layout: fixed">
+                        <thead>
+                          <tr style="display:block; position:relative;">
+                            <th class="table-head" style="text-align:center; width:200px;">Date & Time</th>
+                            <th class="table-head" style="text-align:center; width:200px;">MGW</th>
+                          </tr>
+                        </thead>
+                        <tbody style="display:block; overflow:auto; height:180px;"></tbody>
+                      </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+	
+	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+	
+    <!-- jQuery -->
+    <script src="static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="static/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="static/js/jquery.easing.min.js"></script>
+    <script src="static/js/sticky-menu.js"></script>
+
+    <!-- Our plot and table dependencies -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+    <script src="static/js/prediction.js"></script>
+
+</body>
+
+</html>
